@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+
+    android:id="@+id/cardview">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img1"
+            android:src="@drawable/abc"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Naran sah"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+            android:id="@+id/tb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tb1"
+            android:layout_toRightOf="@id/img1"
+            android:text="9819872129"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
